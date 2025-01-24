@@ -87,5 +87,13 @@ Price is one biggest cost driver for the Airbnb rental performance. From descrip
 ##### Figure 6
 ![image](https://github.com/user-attachments/assets/9717b2ca-a07e-409b-92a8-56a8dd7499ce)
 
+Rental price was highly skewed after preprocessing of the data. We performed a log transformation to reduce the skewness in the data. Figure 11 shows the log transformed price distribution in a histogram plot. Figure 7 shows log transformed price distribution.
+##### Figure 7
+![image](https://github.com/user-attachments/assets/ac912a7d-088f-4ead-ac6d-bb6ccf74908d)
+
+### 4.3. Property Type Analysis
+We performed univariate analysis of property-type features to understand the distribution of different Airbnb rental properties across the West Coast region. Figure 8 shows the various property types for the current dataset. Analysis shows that the most listed property types are “Entire home” followed by “Entire rental unit”. The least listed property types are hotel rooms and private rooms in a condo.
+
+##### Figure 8
 
 
