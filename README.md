@@ -140,27 +140,45 @@ From the descriptive summary it was found that Airbnb has more non-superhosts th
 ![image](https://github.com/user-attachments/assets/06880ec2-9ca3-47c7-b59c-a5be86158816)
 
 More detailed analysis as shown in Figure 17 elaborates the fact that superhosts have more listings in most expensive neighborhoods like Bel-Air, Beverly Crest, Malibu and Hollywood Hills West.
+##### Figure 17
 ![image](https://github.com/user-attachments/assets/515e206a-1910-45b2-ab23-0c1df20389a0)
 
-However, the bottom 10 inexpensive neighborhoods tell the opposite story. Figure 17 shows the listing count from both host types in the bottom 10 low-cost neighborhood.
+However, the bottom 10 inexpensive neighborhoods tell the opposite story. Figure 18 shows the listing count from both host types in the bottom 10 low-cost neighborhood.
 
-##### Figure 17
+##### Figure 18
 ![image](https://github.com/user-attachments/assets/c12ecb66-ce81-4b35-a0aa-e279bc109f86)
 
 A greater number of hosts without superhost status have their listing in the bottom 10 low-cost neighborhoods. The lowest-cost neighborhood, Peralta-Laney, does not have any listing from a superhost.
 
 ### 4.8. Host Status-wise Performance Analysis
-The project analyzed performance of the rentals based on their yearly occupancy rate and monthly occupancy rate by both types of hosts. In the cities where price for the rentals are higher, we analyzed the yearly and monthly occupancy rate for each type of host. Figure 18 shows the distribution comparison of yearly and monthly occupancy rate for each of the highest grossing cities and for each type of hosts.
-##### Figure 18
+The project analyzed performance of the rentals based on their yearly occupancy rate and monthly occupancy rate by both types of hosts. In the cities where price for the rentals are higher, we analyzed the yearly and monthly occupancy rate for each type of host. Figure 19 shows the distribution comparison of yearly and monthly occupancy rate for each of the highest grossing cities and for each type of hosts.
+##### Figure 19
 ![image](https://github.com/user-attachments/assets/9c994bec-8048-4cc6-9ab0-318ecebaab6e)
 
 Monthly occupancy rate per city shows that rentals hosted by both superhosts and non-superhosts have similar median occupancy rates. However, minimum occupancy rates are high for the rentals hosted by superhosts. This indicates that the minimum number of nights stayed in the rentals hosted by a superhost are more than those hosted by non-superhosts.
-Based on the derived feature Monthly Revenue Per Rental, which was derived based on occupancy rate and price, we analyzed rentals’ performance hosted by both types of hosts in each state. Analysis shows that in all the states, California, Oregon, and Washington, superhosts are earning more monthly revenue from their hosted rentals compared to non-superhosts. Figure 19 shows the monthly revenue per state by both types of hosts.
+Based on the derived feature Monthly Revenue Per Rental, which was derived based on occupancy rate and price, we analyzed rentals’ performance hosted by both types of hosts in each state. Analysis shows that in all the states, California, Oregon, and Washington, superhosts are earning more monthly revenue from their hosted rentals compared to non-superhosts. Figure 20 shows the monthly revenue per state by both types of hosts.
 
-##### Figure 19
+##### Figure 20
 ![image](https://github.com/user-attachments/assets/bf0ad8fa-1708-46ec-a1bb-e1c7c196d37e)
 
+Also, superhosts are earning more average monthly revenue from rentals in each city compared to the rentals hosted by non-superhosts. Figure 21 shows average monthly revenue per rentals by cities for both types of hosts.
 
-Also, superhosts are earning more average monthly revenue from rentals in each city compared to the rentals hosted by non-superhosts. Figure 20 shows average monthly revenue per rentals by cities for both types of hosts.
-##### Figure 20
+##### Figure 21
 ![image](https://github.com/user-attachments/assets/e7895b28-f2c4-450b-a3ff-d6059db6cfc3)
+
+### 4.9. Correlation and Heatmap
+We performed correlation analysis on the numerical features. Figure 22 shows the heatmap for the numeric feature correlation coefficient. Darker colors in the plot signifies higher correlation.
+
+##### Figure 22
+![image](https://github.com/user-attachments/assets/569be44b-b589-4014-b6dd-398f441ec543)
+
+Analysis shows that various review-related features are highly correlated with each other. Similarly, rental features such as ‘accommodates’, ‘bedrooms’, ‘bathrooms’, and ‘beds’ are highly correlated with each other. Revenue-related features are positively correlated with occupancy rates and price and negatively correlated with various availability features.
+
+### 4.10 EDA Conclusion
+Key findings from exploratory data analysis are:
+1. Superhosts focus on high-end neighborhoods with significant investments in luxury properties.
+2. Non-superhosts cater to budget-conscious guests and dominate areas with low rental costs.
+3. Review score is not impacted by superhost status, but booking of rental properties is impacted by
+the host status. Superhosts get a higher number of bookings compared to non-superhosts.
+4. More hosts may be encouraged to achieve Superhost status as superhosts tend to earn higher
+revenue from their listings.
