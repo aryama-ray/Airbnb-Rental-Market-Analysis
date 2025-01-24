@@ -177,6 +177,7 @@ Analysis shows that various review-related features are highly correlated with e
 ### 4.10.Popular Property descriptions words by Host across various cities
 The dataset includes a description feature associated with each rental, which hosts use to highlight details about their properties. Word cloud analysis reveals that this feature emphasizes key attractions and tourist interests when selecting rentals in a specific location. Figure 18 presents the word cloud for Monterey, California, a destination renowned for attractions such as Pacific Grove, Monterey Bay, and Pebble Beach. Visitors frequently choose this area to experience the ocean and stay in accommodations with ocean views.
 
+![wordcloud](https://github.com/user-attachments/assets/b76f33cb-f4be-4d51-8c1a-d5b7b71f2fcf)
 
 ### 4.11 EDA Conclusion
 Key findings from exploratory data analysis are:
@@ -186,5 +187,24 @@ Key findings from exploratory data analysis are:
 the host status. Superhosts get a higher number of bookings compared to non-superhosts.
 4. More hosts may be encouraged to achieve Superhost status as superhosts tend to earn higher
 revenue from their listings.
+
+### 4.12 TABLEAU Dashboards
+
+#### Screenshots
+
+1. Various KPIs across 3-West Coast States
+   ![dashboard1](https://github.com/user-attachments/assets/91e07ed6-b1e8-4ca2-8b0d-bae839c69450)
+
+2. Hosting Trend and performance of their rentals
+   ![dashboard2](https://github.com/user-attachments/assets/c760bb84-74b4-4324-a8a6-6788876aade7)
+
+3. Revenue based Analysis
+   ![dashboard3](https://github.com/user-attachments/assets/e89c95ae-8dcb-40c4-b423-5bb09f81e201)
+   
+#### Dashboard Link
+https://public.tableau.com/app/profile/aryama.ray/viz/AIRBNBRentalMarketAnalysis/AIRBNBStory?publish=yes
+
+
+### 5. Segmentation of Airbnb Rental Market and Ranking the Segments Based on Average Monthly Revenue
 
 
