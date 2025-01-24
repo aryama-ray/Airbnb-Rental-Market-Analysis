@@ -174,7 +174,11 @@ We performed correlation analysis on the numerical features. Figure 22 shows the
 
 Analysis shows that various review-related features are highly correlated with each other. Similarly, rental features such as ‘accommodates’, ‘bedrooms’, ‘bathrooms’, and ‘beds’ are highly correlated with each other. Revenue-related features are positively correlated with occupancy rates and price and negatively correlated with various availability features.
 
-### 4.10 EDA Conclusion
+### 4.10.Popular Property descriptions words by Host across various cities
+The dataset includes a description feature associated with each rental, which hosts use to highlight details about their properties. Word cloud analysis reveals that this feature emphasizes key attractions and tourist interests when selecting rentals in a specific location. Figure 18 presents the word cloud for Monterey, California, a destination renowned for attractions such as Pacific Grove, Monterey Bay, and Pebble Beach. Visitors frequently choose this area to experience the ocean and stay in accommodations with ocean views.
+
+
+### 4.11 EDA Conclusion
 Key findings from exploratory data analysis are:
 1. Superhosts focus on high-end neighborhoods with significant investments in luxury properties.
 2. Non-superhosts cater to budget-conscious guests and dominate areas with low rental costs.
@@ -182,3 +186,5 @@ Key findings from exploratory data analysis are:
 the host status. Superhosts get a higher number of bookings compared to non-superhosts.
 4. More hosts may be encouraged to achieve Superhost status as superhosts tend to earn higher
 revenue from their listings.
+
+
