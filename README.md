@@ -70,4 +70,22 @@ Annual Revenue Per Rental and Monthly Revenue Per Rental features were computed 
 These metrics estimate the annual revenue and monthly estimated revenue generated per rental property. These features provide an indication of the long-term and short-term earning potential of properties, which is crucial for financial planning and benchmarking performance across listings.
 
 
+## 4. Exploratory Data Analysis
+### 4.1. Summary Statistics
+Descriptive statistics were performed for a few key numeric attributes. Figure 4 shows the descriptive statistics for ‘host_response_rate’, ‘host_acceptance_rate’, ‘host_listing_count’, ‘reviews_per_month’, and ‘host_since’.
+##### Figure 4
+![image](https://github.com/user-attachments/assets/f803b1cc-0e08-4bba-8ed7-2c419f56ac88)
+
+This summary statistics shows that a median number of Airbnb hosts were hosting their rentals since 2016. On average, they have 76 listings on Airbnb. The average response rate is 96.9% whereas acceptance rate is 89.54%. Figure 8 shows the super host count on this platform.
+There are 37,917 superhost listings compared to 53,190 non-superhost listings present in the West Coast. We also performed descriptive statistics on the number of reviews, price, and the minimum and maximum number of nights spent in these rentals. Figure 9 shows the summary of these statistics.
+
+##### Figure 5
+![image](https://github.com/user-attachments/assets/2e54084a-59d7-4d9b-a717-c4ab00d1e46b)
+
+### 4.2. Price Analysis
+Price is one biggest cost driver for the Airbnb rental performance. From descriptive statistics we found the average rental price is $254.78. However the price range varies from a minimum of $5 to a maximum of $59,000 in West Coast states. We analyzed the price feature further. Figure 6 shows the price distribution.
+##### Figure 6
+![image](https://github.com/user-attachments/assets/9717b2ca-a07e-409b-92a8-56a8dd7499ce)
+
+
 
