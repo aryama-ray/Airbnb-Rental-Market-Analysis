@@ -96,4 +96,71 @@ We performed univariate analysis of property-type features to understand the dis
 
 ##### Figure 8
 
+![fig7](https://github.com/user-attachments/assets/b247f047-8e7d-4653-b675-88b73ad8d4ff)
 
+### 4.4. Review Analysis
+The project aims to analyze host performance and recommendation for potential Airbnb hosts based on review score ratings. Figure 9 shows the review score summary and distribution across West Region States.
+##### Figure 9
+![fig8](https://github.com/user-attachments/assets/40a2ff14-897b-498c-a44c-942febc0de37)
+
+The average review score for Airbnb rentals is 4.8 on a scale of 0 to 5, with scores ranging from a minimum of 0 to a maximum of 5. Distribution plot shows that the rating is left skewed. Also, the distribution for the number of reviews is right skewed. This plot suggests that visitors to the rentals mostly avoid giving reviews and whenever they do, they mostly end up giving higher review ratings.
+
+### 4.5. Top 10 Listing Analysis
+We performed analysis to understand the number of active rentals and rental listings across cities and neighborhoods. Top 10 analyses were performed with various features to understand the distribution of rentals. Figure 10 shows the top 10 cities based on the number of Airbnb rentals.
+##### Figure 10
+![fig10](https://github.com/user-attachments/assets/5ca373fd-ba27-4966-914a-fc8fbdb73b77)
+
+Los Angeles has the highest number of Airbnb rentals followed by San Diego and San Francisco. Figure 11 shows rentals distribution across the various neighborhoods.
+##### Figure 11
+![image](https://github.com/user-attachments/assets/ee94af7c-89b8-4efc-9e19-76a3babe2e0b)
+
+
+The San Jose neighborhood has the highest number of rentals followed by Mission Bay and Long Beach. Figure 12 shows the rental distribution for hosts.
+##### Figure 12
+![image](https://github.com/user-attachments/assets/f8a308c3-79cc-4404-bf27-225742ede854)
+
+Blueground has the highest number of rentals hosted on the Airbnb platform followed by “Roompicks” and “Michael”. Figure 13 shows the average number of listings on Airbnb by various hosts. Hosts can have both active and inactive listings.
+##### Figure 13
+![image](https://github.com/user-attachments/assets/91a67f64-ae1c-47d7-a76f-b26d985892b4)
+Though Blueground has the highest number of rentals, Figure 13 shows that “RoomPicks by Victoria” has the highest average listings on the Airbnb platform followed by “LuxurybookingsFZE”. Listing- count-wise, “Blueground” comes third in the list.
+
+### 4.6. Neighborhood-wise Analysis
+There is a huge average rental price difference between expensive and inexpensive neighborhoods hosted by Airbnb. Figure 14 shows the top 10 and bottom 10 expensive neighborhoods in terms of the average rental price in those neighborhoods.
+##### Figure 14
+![image](https://github.com/user-attachments/assets/007dde37-b301-40a9-8da7-7a3c30324f0c)
+
+The Bel-Air neighborhood has the most expensive Airbnb rental properties in the West Coast states. The rental price in this location is above $2500 per night. Malibu and Beverly Crest also have expensive rentals, with a price of around $1500 per night. Compared to these expensive rentals, Colma, Tijuana River Valley, and Watts have the most inexpensive rentals. Figure 15 shows more details on these expensive rentals.
+
+##### Figure 15
+![image](https://github.com/user-attachments/assets/6573ea8c-772b-4e53-90cd-7dc2d070b1b9)
+
+### 4.7. Host-Related Listing Analysis
+From the descriptive summary it was found that Airbnb has more non-superhosts than superhosts. However, more superhosts have their listings in the most expensive neighborhoods compared to non- superhosts, which indicates they might earn more revenue out of these listings.
+#### Figure 16
+![image](https://github.com/user-attachments/assets/06880ec2-9ca3-47c7-b59c-a5be86158816)
+
+More detailed analysis as shown in Figure 17 elaborates the fact that superhosts have more listings in most expensive neighborhoods like Bel-Air, Beverly Crest, Malibu and Hollywood Hills West.
+![image](https://github.com/user-attachments/assets/515e206a-1910-45b2-ab23-0c1df20389a0)
+
+However, the bottom 10 inexpensive neighborhoods tell the opposite story. Figure 17 shows the listing count from both host types in the bottom 10 low-cost neighborhood.
+
+##### Figure 17
+![image](https://github.com/user-attachments/assets/c12ecb66-ce81-4b35-a0aa-e279bc109f86)
+
+A greater number of hosts without superhost status have their listing in the bottom 10 low-cost neighborhoods. The lowest-cost neighborhood, Peralta-Laney, does not have any listing from a superhost.
+
+### 4.8. Host Status-wise Performance Analysis
+The project analyzed performance of the rentals based on their yearly occupancy rate and monthly occupancy rate by both types of hosts. In the cities where price for the rentals are higher, we analyzed the yearly and monthly occupancy rate for each type of host. Figure 18 shows the distribution comparison of yearly and monthly occupancy rate for each of the highest grossing cities and for each type of hosts.
+##### Figure 18
+![image](https://github.com/user-attachments/assets/9c994bec-8048-4cc6-9ab0-318ecebaab6e)
+
+Monthly occupancy rate per city shows that rentals hosted by both superhosts and non-superhosts have similar median occupancy rates. However, minimum occupancy rates are high for the rentals hosted by superhosts. This indicates that the minimum number of nights stayed in the rentals hosted by a superhost are more than those hosted by non-superhosts.
+Based on the derived feature Monthly Revenue Per Rental, which was derived based on occupancy rate and price, we analyzed rentals’ performance hosted by both types of hosts in each state. Analysis shows that in all the states, California, Oregon, and Washington, superhosts are earning more monthly revenue from their hosted rentals compared to non-superhosts. Figure 19 shows the monthly revenue per state by both types of hosts.
+
+##### Figure 19
+![image](https://github.com/user-attachments/assets/bf0ad8fa-1708-46ec-a1bb-e1c7c196d37e)
+
+
+Also, superhosts are earning more average monthly revenue from rentals in each city compared to the rentals hosted by non-superhosts. Figure 20 shows average monthly revenue per rentals by cities for both types of hosts.
+##### Figure 20
+![image](https://github.com/user-attachments/assets/e7895b28-f2c4-450b-a3ff-d6059db6cfc3)
