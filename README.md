@@ -207,4 +207,30 @@ https://public.tableau.com/app/profile/aryama.ray/viz/AIRBNBRentalMarketAnalysis
 
 ### 5. Segmentation of Airbnb Rental Market and Ranking the Segments Based on Average Monthly Revenue
 
+In this machine learning approach, we identified highly correlated features, which are the main drivers for revenue-related attributes, through exploratory data analysis and the correlation matrix. The correlation matrix showed that various rental-related amenities features, such as the number of beds, accommodation capacity, and the number of bathrooms, are highly correlated with each other. Additionally, various occupancy-related features, review score-related features, price and revenue-related features also showed high correlations. This model aims to provide revenue recommendations for potential Airbnb hosts and offer improvement strategies for current hosts by ranking their rentals. The rankings are determined based on the average monthly revenue of each segment, identified through cluster analysis. The developed clustering model provides a robust method to group rental data based on revenue potential.
+
+### 5.1. Data Flow for Cluster Model
+![DataFlow for Cluster](https://github.com/user-attachments/assets/e9f2bb87-bace-4981-b99a-66c8f55f9037)
+
+### 5.2. Model Development
+1. Optimal Number of Clusters Identification:
+   The elbow method was applied to determine the optimal number of clusters. A range of 2 to 40 clusters was evaluated, and the inertia (within-cluster sum of squares) was plotted. The figure 23 shows the elbow curve for the K-means algorithm for various k-values.
+
+##### Figure 23
+![image](https://github.com/user-attachments/assets/efa2c9ae-8c4f-4d05-8cb1-b15b1f9c00d9)
+
+The optimal number of clusters was chosen as 10, where the curve of inertia began to saturate.
+
+2. Clustering Algorithm:
+   K-means clustering was employed with the optimal number of clusters (K=10). Clusters were assigned to data points in both training and test sets.
+
+3. Cluster Ranking:
+   Each of these 10 clusters were ranked based on the mean value of the ‘monthly_revenue_per_rental’ feature. Rankings were assigned as a new column in the training dataset for interpretation. The following table and plot shows how 0-9 clusters were ranked based on their average monthly revenue on a scale of 1-10, with 1 being the highest revenue generator and 10 being the lowest revenue generator segment.
+   ![image](https://github.com/user-attachments/assets/f15d6315-adfc-460c-8685-92fec77f04cf)
+   
+5. Model Evaluation :
+   The model's performance was evaluated using the following metrics.
+Silhouette Score: This was evaluated on both training and test datasets to measure the compactness and separation of clusters. The silhouette score for training data was satisfactory, indicating well-defined clusters. For the test data, the silhouette score was 0.432, demonstrating consistent performance on unseen data.
+
+
 
