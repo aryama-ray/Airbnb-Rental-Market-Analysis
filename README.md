@@ -233,4 +233,14 @@ The optimal number of clusters was chosen as 10, where the curve of inertia bega
 Silhouette Score: This was evaluated on both training and test datasets to measure the compactness and separation of clusters. The silhouette score for training data was satisfactory, indicating well-defined clusters. For the test data, the silhouette score was 0.432, demonstrating consistent performance on unseen data.
 
 
+### References
+
+Chen, C., & Chang, Y. (2018). What drives purchase intentions on Airbnb? Perspectives of consumer reviews, information quality, and media richness. Telematics and Informatics, 35(5), 1512- 1523. https://doi.org/10.1016/j.tele.2018.03.019
+
+Grisolía, M. (2024, March 8). Airbnb Revenue Calculator: breaking down host profits. your.rentals. Retrieved November 26, 2024, from https://your.rentals/blog/airbnb-revenue-calculator/
+
+Inside Airbnb. (n.d.). Get the Data. Retrieved October 6, 2024, from https://insideairbnb.com/get-the- data/
+U.S. Census Bureau. (2024, April 15). Cartographic Boundary Files. November 19, 2024, from https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html
+
+Xie, K., & Mao, Z. (2017). The impacts of quality and quantity attributes of Airbnb hosts on listing performance. International Journal of Contemporary Hospitality Management, 29(9), 2240–2260. https://doi.org/10.1108/IJCHM-07-2016-0345
 
