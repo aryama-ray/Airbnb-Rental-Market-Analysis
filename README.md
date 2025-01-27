@@ -232,6 +232,9 @@ The optimal number of clusters was chosen as 10, where the curve of inertia bega
    The model's performance was evaluated using the following metrics.
 Silhouette Score: This was evaluated on both training and test datasets to measure the compactness and separation of clusters. The silhouette score for training data was satisfactory, indicating well-defined clusters. For the test data, the silhouette score was 0.432, demonstrating consistent performance on unseen data.
 
+### Conclusion
+
+This project provides a comprehensive analysis of the West Coast Airbnb rental market, that equips the hosts with the tools to better understand their market, improve their offerings, and achieve competitive advantage in the dynamic short-term rental market. By highlighting trends across neighborhoods and uncovering patterns in guest preferences, the project fosters data-driven decision-making, enabling Airbnb hosts to thrive in an increasingly competitive landscape.
 
 ### References
 
